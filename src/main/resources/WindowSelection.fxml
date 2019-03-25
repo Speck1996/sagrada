@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-image: url(/assets/main_background.jpg); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.view.gui.ControllerWindowSelection">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" percentWidth="2.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="5.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="2.0" />
+       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="35.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="25.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="28.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="2.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="5.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="2.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints percentHeight="2.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="5.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="43.0" valignment="CENTER" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="5.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="43.0" valignment="CENTER" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="2.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+       <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Select your window" GridPane.columnIndex="1" GridPane.columnSpan="7" GridPane.rowIndex="1">
+           <font>
+               <Font size="24.0" />
+           </font></Label>
+       <Button fx:id="choice1" maxHeight="200.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectedOne" text="Pick" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+       <Button fx:id="choice2" maxHeight="200.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectedTwo" text="Pick" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+       <Button fx:id="choice3" maxHeight="200.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectedThree" text="Pick" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+       <Button fx:id="choice4" maxHeight="200.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectedFour" text="Pick" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+       <BorderPane fx:id="window1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+       <BorderPane fx:id="window3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+       <BorderPane fx:id="window4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+       <Label fx:id="selection" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="7" GridPane.rowIndex="3" />
+       <BorderPane fx:id="window2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="258.0" prefWidth="265.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></BorderPane>
+   </children>
+</GridPane>

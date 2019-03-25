@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Client">
+    <output-path>$PROJECT_DIR$/out/artifacts/Client</output-path>
+    <root id="archive" name="Client.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ClientManifest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="com">
+        <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/Client.class" />
+        <element id="directory" name="control">
+          <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/control/GameController.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/control/RemoteLobbyManager.class" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/ClientState.class" />
+        <element id="directory" name="view">
+          <element id="dir-copy" path="$PROJECT_DIR$/target/classes/com/view" />
+        </element>
+        <element id="directory" name="model">
+          <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/model/LoginException.class" />
+          <element id="directory" name="patterns">
+            <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/model/patterns/WindowSyntaxException.class" />
+          </element>
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>

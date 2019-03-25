@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Server">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server</output-path>
+    <root id="archive" name="Server.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ServerManifest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="com">
+        <element id="directory" name="model">
+          <element id="dir-copy" path="$PROJECT_DIR$/target/classes/com/model" />
+        </element>
+        <element id="directory" name="control">
+          <element id="dir-copy" path="$PROJECT_DIR$/target/classes/com/control" />
+        </element>
+        <element id="directory" name="view">
+          <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/view/RemoteClient.class" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/PlayerConnectionHandler.class" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/Server.class" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/ClientState.class" />
+      </element>
+    </root>
+  </artifact>
+</component>

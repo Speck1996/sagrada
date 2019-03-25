@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="grid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-image: url(/assets/score_background.jpg); -fx-background-size: stretch; -fx-background-repeat: stretch;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.view.gui.ControllerScoreScene">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" percentWidth="7.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="9.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="8.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="3.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="10.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="3.0" />
+
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="8.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="9.0" />
+       <ColumnConstraints hgrow="SOMETIMES" percentWidth="6.0" />
+      <ColumnConstraints hgrow="SOMETIMES" percentWidth="7.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints percentHeight="5.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="9.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="32.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="9.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="4.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="17.0" vgrow="SOMETIMES" />
+       <RowConstraints percentHeight="9.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="5.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+       <Button fx:id="statButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#statsButtonClicked" text="Statistics" GridPane.columnIndex="13" GridPane.columnSpan="2" />
+       <Button fx:id="menuButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#menuButtonClicked" text="Menu" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0" />
+       <StackPane fx:id="winnerTitleFrame" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/frames/vintage-label-frame.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="4" GridPane.columnSpan="7" GridPane.rowIndex="0" GridPane.rowSpan="3" />
+       <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="The winner is" GridPane.columnIndex="5" GridPane.columnSpan="5" GridPane.rowIndex="1">
+           <font>
+               <Font size="41.0" />
+           </font>
+       </Label>
+       <StackPane fx:id="winnerNameContainer" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/frames/score_name_frame.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="4" GridPane.columnSpan="7" GridPane.rowIndex="4" />
+       <StackPane fx:id="secondPlayerNameContainer" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/frames/score_name_frame.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="7" />
+       <StackPane fx:id="thirdPlayerNameContainer" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/frames/score_name_frame.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="5" GridPane.columnSpan="5" GridPane.rowIndex="7" />
+       <StackPane fx:id="fourthPlayerNameContainer" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/frames/score_name_frame.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="11" GridPane.columnSpan="3" GridPane.rowIndex="7" />
+       <StackPane fx:id="goldCup" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/Trophies/Gold_cup.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="6" GridPane.columnSpan="3" GridPane.rowIndex="3" />
+       <StackPane fx:id="silverCup" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/Trophies/Silver_cup.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+       <StackPane fx:id="bronzeCup" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/Trophies/Bronze_cup.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+       <StackPane fx:id="woodCup" prefHeight="150.0" prefWidth="200.0" style="-fx-background-image: url(/assets/Trophies/Wood_cup.png); -fx-background-size: 100% 100%;" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+       <Label fx:id="player1" alignment="CENTER" maxWidth="1.7976931348623157E308" text="PLAYER 1" GridPane.columnIndex="4" GridPane.columnSpan="7" GridPane.rowIndex="4">
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Label>
+       <Label fx:id="player2" alignment="CENTER" maxWidth="1.7976931348623157E308" text="PLAYER 2" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="7">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+       <Label fx:id="player3" alignment="CENTER" maxWidth="1.7976931348623157E308" text="PLAYER 3" GridPane.columnIndex="5" GridPane.columnSpan="5" GridPane.rowIndex="7">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+       <Label fx:id="player4" alignment="CENTER" maxWidth="1.7976931348623157E308" text="PLAYER 4" GridPane.columnIndex="11" GridPane.columnSpan="3" GridPane.rowIndex="7">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+   </children>
+</GridPane>

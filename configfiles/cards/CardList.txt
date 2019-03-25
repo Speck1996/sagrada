@@ -1,0 +1,27 @@
+ID:COF60:TITLE:Row Color Variety:DESCRIPTION:Rows with no repeated colors.:POINTS:6
+ID:COF50:TITLE:Column Color Variety:DESCRIPTION:Columns with no repeated colors.:POINTS:5
+ID:COF40:TITLE:Column Shade Variety:DESCRIPTION:Columns with no repeated values.:POINTS:4
+ID:COF51:TITLE:Row Shade Variety:DESCRIPTION:Rows with no repeated values.:POINTS:5
+ID:COF41:TITLE:Color Variety:DESCRITION:Sets of one of each color anywhere.:POINTS:4
+ID:COF52:TITLE:Shade Variety:DESCRIPTION:Sets of one of each value anywhere.:POINTS:5
+ID:COF20:TITLE:Deep Shades:DESCRIPTION:Sets of 5 & 6 values anywhere.:POINTS:2
+ID:COF21:TITLE:Medium Shades:DESCRIPTION:Sets of 3 & 4 values anywhere.:POINTS:2
+ID:COF22:TITLE:Light Shades:DESCRIPTION:Sets of 1 & 2 values anywhere.:POINTS:2
+ID:COF00:TITLE:Color diagonals:DESCRIPTION:Count of diagonally adjacent same color dice.:POINTS:1
+ID:COTP0:TITLE:Shades of Purple:DESCRIPTION:Sum of values on purple dice:POINTS:1
+ID:COTR0:TITLE:Shades of Red:DESCRIPTION:Sum of values on red dice:POINTS:1
+ID:COTY0:TITLE:Shades of Yellow:DESCRIPTION:Sum of values on yellow dice:POINTS:1
+ID:COTG0:TITLE:Shades of Green:DESCRIPTION:Sum of values on green dice:POINTS:1
+ID:COTB0:TITLE:Shades of Blue:DESCRIPTION:Sum of values on blue dice:POINTS:1
+ID:CTA00:TITLE:Grozing Pliers:DESCRIPTION:After drafting, increase or decrease the value of the drafted die by 1. 1 may not change to 6, or 6 to 1.:
+ID:CTA10:TITLE:Eglomise Brush:DESCRIPTION:Move any one die in your window ignoring the color restriction. You must obey all other placement restrictions:
+ID:CTA20:TITLE:Copper Foil Burnisher:DESCRIPTION:Move any one die in your window ignoring shade restriction. You must obey all other placement restrictions.:
+ID:CTA30:TITLE:Lathekin:DESCRIPTION:Move exactly two dice, obeying all placement restrictions.:
+ID:CTA40:TITLE:Lens Cutter:DESCRIPTION:After drafting, swap the drafted die with a die from the Round Track.:
+ID:CTA50:TITLE:Flux Brush:DESCRIPTION:After drafting, reroll the drafted die. If it cannot be placed, return it to the Draft Pool.:
+ID:CTA60:TITLE:Glazing Hammer:DESCRIPTION:Re-roll all dice in the Draft Pool. This may only be used on your second turn before drafting.:
+ID:CTA70:TITLE:Running Pliers:DESCRIPTION:After your turn, immediatly draft a die. Skip your next turn this round.:
+ID:CTA80:TITLE:Cork-backed Straighedge:DESCRIPTION:After drafting, place the diee in a spot that is not adjacent to another diee. You must obey all other placement restrictions.:
+ID:CTA90:TITLE:Grinding Stone:DESCRIPTION:After drafting, flip the die to its opposite side. 6 flips to 1, 5 to 2, 4 to 3, etc.:
+ID:CTA11:TITLE:Flux Remover:DESCRIPTION:After drafting, return the die to the DiceBag and pull 1 die from the bag. Choose a value and place the new die, obeying all placemente restrictions, or return it to the Draft Pool.:
+ID:CTA12:TITLE:Tap Wheel:DESCRIPTION:Move up two dice of the same color that match the color of a die on the Round Track. You must obey all placement restrictions.:
