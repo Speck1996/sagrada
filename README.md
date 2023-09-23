@@ -18,13 +18,12 @@ Maven
 * Run ```java -jar Client.jar``` to start the client
 
 ## Game Screenshots
-
-![Home](screenshots/home_sagrada.png)
 *Game home screen*
-![Waiting lobby](screenshots/lobby_sagrada.png)
+![Home](screenshots/home_sagrada.png)
 *Waiting lobby*
-![Game Board](screenshots/game_board.png)
+![Waiting lobby](screenshots/lobby_sagrada.png)
 *Game board*
+![Game Board](screenshots/game_board.png)
 
 ## Test Coverage and Sonar
 For the model the test coverage is the following
