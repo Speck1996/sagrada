@@ -17,6 +17,13 @@ Maven
 * Run ```java -jar Server.jar``` to start the server
 * Run ```java -jar Client.jar``` to start the client
 
+## Game Screenshots
+For the model the test coverage is the following
+
+![Home](screenshots/home_sagrada.png)
+![Waiting lobby](screenshots/lobby_sagrada.png)
+![Game Board](screenshots/game_board.png)
+
 ## Test Coverage and Sonar
 For the model the test coverage is the following
 
