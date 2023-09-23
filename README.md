@@ -20,8 +20,11 @@ Maven
 ## Game Screenshots
 
 ![Home](screenshots/home_sagrada.png)
+*Game home screen*
 ![Waiting lobby](screenshots/lobby_sagrada.png)
+*Waiting lobby*
 ![Game Board](screenshots/game_board.png)
+*Game board*
 
 ## Test Coverage and Sonar
 For the model the test coverage is the following
