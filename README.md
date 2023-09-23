@@ -18,7 +18,6 @@ Maven
 * Run ```java -jar Client.jar``` to start the client
 
 ## Game Screenshots
-For the model the test coverage is the following
 
 ![Home](screenshots/home_sagrada.png)
 ![Waiting lobby](screenshots/lobby_sagrada.png)
