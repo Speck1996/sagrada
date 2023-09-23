@@ -6,7 +6,7 @@ Repo for Software Engineering final project 2018.
 * Tibaldi Alberto - 807775 - 10424105
 
 ## Requirements
-Java JDK 10 and JRE 10
+Java JDK 10 and JRE 10\
 Maven
 
 ## Setup
