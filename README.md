@@ -5,6 +5,18 @@ Repo for Software Engineering final project 2018.
 * Peretti Edoardo - 848914 - 10545327
 * Tibaldi Alberto - 807775 - 10424105
 
+## Requirements
+Java JDK 10 and JRE 10
+Maven
+
+## Setup
+* Run ```mvn compile```
+* Run ```mvn package```
+* Place the Server jar in the same directory containing the configfiles folder
+* Launch the java RMI registry
+* Run ```java -jar Server.jar``` to start the server
+* Run ```java -jar Client.jar``` to start the client
+
 ## Test Coverage and Sonar
 For the model the test coverage is the following
 
